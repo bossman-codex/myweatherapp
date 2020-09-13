@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+
+main{
+    padding: 25px;
+    
+}
+.video-one{
+  
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left:0%;
+    height: 100%;
+    object-fit: cover;
+    transform: (-50%,-50%);
+    z-index: -1;
+    overflow: hidden;
+}
+
+.search-box{
+    width: 100%;
+    margin: 0 0 75px;
+}
+
+.search-box .search-bar{
+    width: 100%;
+    display: block;
+    padding: 15px; 
+
+    animation: none;
+    border: none;
+    outline: none;
+    box-shadow: slategray;
+
+    background-color: rgba(129, 252, 14, 0.582);
+    margin-top: -25px;
+    border-radius: 0px 0px 16px 16px;
+
+    color: black;
+    font-size: 18px;
+}
+
+
+.search-box .search-bar:focus{
+    background-color: rgba(131, 185, 59, 0.623);
+}
+
+.location-box .location{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow:3px 3px gray ;
+
+}
+
+.location-box .Date{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 2px 2px gray ;
+
+}
+.weather-box{
+    text-align: center;
+}
+
+.weather-box .temp{
+    position: relative;
+    display: inline-block;
+    margin: 30px auto;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow:3px 6px gray ;
+
+    border-radius: 16px;
+    padding: 15px 25px;
+    background-color: white;
+    font-size: 90px;
+    font-weight: 900;
+    box-shadow: 3px 6px rgba(0, 0 , 0, 0.2);
+
+}
+
+
+.weather-box .weather{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 3px 2px gray ;
+}
